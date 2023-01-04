@@ -1,0 +1,44 @@
+; SALVEEE! BEM VINDO
+; PRA CONFIGURAR O BOT SEGUE OS PASSOS:
+; 
+;  1) Coloque a URL do evento do byma no campo "url", ex:
+;  	url = https://byma.com.br/event/blablabla
+; 
+;  2) Coloque o EMAIL cadastrado no byma no campo "email", ex:
+;  	email = emailteste@gmail.com
+; 
+;  3) Coloque a sua SENHA cadastrada no byma no campo "senha", ex:
+;  	senha = senhamuitolegal123
+; 
+;  4) Escolha uma das opções de ingresso, vou explicar melhor isso:
+;  	  O bot não sabe qual ingresso ele deve comprar pra ti, se é inteira, estudante,
+;  	  nem tem como ele detectar o que cada "nome significa", então eu separei pela faixa
+;  	  de preço, tem 3 combinações possiveis:
+; 
+;  	  	opcao_ingresso = 1
+;  	  		Aqui o bot vai escolher o ingresso mais barato
+; 
+;  	  	opcao_ingresso = 2
+;  	  		Aqui o bot vai escolher o ingresso mais caro (tem louco pra tudo né)
+; 
+;  	  	opcao_ingresso = 3
+;  	  		Aqui o bot vai escolher um ingresso aleatório e vapo
+;
+;  	  	opcao_ingresso = 4
+;  	  		Aqui o bot vai escolher um ingresso no valor mediano, por ex:
+;				Se tiver ingresso de R$ 20, R$ 30, R$ 50, R$ 100, R$ 500
+;					nesse caso ele vai escolher o de R$ 50.
+; 
+; 
+; OBS: IMPORTANTE!! O BOT SÓ FAZ PAGAMENTO VIA CARTÃO DE CRÉDITO POR ENQUANTO;
+;  PRA FUNCIONAR, VC DEVE REGISTRAR SEU CARTÃO DE CRÉDITO NO BYMA ANTES, VAI EM:
+;  	https://byma.com.br/settings e clica em "Adicionar cartão de crédito"
+;  eu recomendo deixar um cartão de crédito só salvo, porque o bot vai seco nele
+;
+[BYMABOT]
+url = https://byma.com.br/event/666666666666666666666666
+email = emailteste@gmail.com
+senha = senhaaqui
+opcao_ingresso = 1
+valor_minimo = 10
+valor_maximo = 100
