@@ -1,7 +1,9 @@
-<h1 align="center">🎉 ＢＹＭＡ ＢＯＴ 🎉</h1>
+<h1 align="center">🎉 ＢＹＭＡＢＯＴ 🎉</h1>
 
 Um script escrito em Python para quem quer comprar ingressos de festas 
 universitárias no precinho através do site ```https://byma.com.br/```.
+
+
 
 
 
@@ -16,12 +18,12 @@ faixa de preço que deseja, caso o preço dos ingressos esteja fora de tal faixa
 a compra será cancelada.  
 
 **DICA: evite deixar o ```valor_minimo``` igual a zero, a razão disso é que
-diversas festas vendem itens do evento junto com os ingressos, como abadás, copos,
-etc... É importante definir um valor mínimo para não comprar algum destes itens ao
+diversas festas vendem itens do evento com os ingressos, como abadás, copos,
+etc. É importante definir um valor mínimo para não comprar algum destes itens ao
 invés do ingresso.**  
 
   💰 **FORMA DE PAGAMENTO**: Para efetuar o pagamento, o bot utilizará algum cartão já registrado no próprio site 
-do byma, para adicionar um novo cartão como método de pagamento, 
+do Byma, para adicionar um novo cartão como método de pagamento, 
 vá em:  ```https://byma.com.br/settings``` e clique em ```Adicionar cartão de crédito```.
 Preencha as informações e tudo certo!
 
@@ -41,7 +43,7 @@ valor_maximo = 100
 ```
 
 Aqui você deve inserir as informações do seu evento e de sua conta. Basta substituir
-os valores pelos exemplos ficticios, então se seu 
+os valores pelos exemplos fictícios, então se seu 
 e-mail é  ```usuariolegal@hotmail.com```, a configuração ficará:  
 ```email = usuariolegal@hotmail.com```
 e assim por diante...
@@ -76,9 +78,25 @@ Com as dependências instaladas, basta digitar
 
 ----
 
+## 🚩 REQUISITOS:
+É essencial que você tenha o **navegador Firefox** e o **Python 3.11** instalado. Para
+instalar o Python, basta abrir a Microsoft Store e procurar pelo mesmo, ou então, baixar
+pelo [site oficial](https://www.python.org/downloads/), clicando em ```Download Python 3.11.1```.
+ Já para baixar o Firefox, [clique aqui](https://www.mozilla.org/pt-BR/firefox/new/) e procure
+por ```Baixe o Firefox```.  
+
+Para ver se a instalação do Python foi bem sucedida, abra o CMD e digite ```py --version```. Você deverá ver
+algo parecido com:
+
+<div align="center">
+    <img src="https://i.imgur.com/Ppo4Cca.png">
+</div>
+
+----
+
 ## 🧬 PRÓXIMOS PASSOS:
 As próximas funcionalidades que eu pretendo trazer ao bot são:   
-  ☐  Integração com o Telegram   
-  ☐  Ampliar testes, visando maior eficiência  
-  ☐  Ampliar métodos de pagamento  
-  ☐  Interface gráfica
+    ☐  Integração com o Telegram   
+    ☐  Ampliar testes, visando maior eficiência  
+    ☐  Ampliar métodos de pagamento  
+    ☐  Interface gráfica
